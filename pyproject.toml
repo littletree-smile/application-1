@@ -15,6 +15,6 @@ license = {text = "BSD-3-Clause"}
 readme = "README.md"
 dependencies = [
     "numpy == 1.26.4",
-    "template-project @ git+https://{token}@github.com/littletreesmile/template-project.git"
+    "template-project @ git+https://TOKEN@github.com/littletreesmile/template-project.git"
 ]
 
