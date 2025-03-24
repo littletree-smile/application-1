@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==69"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "application-1"
+description = "An application needs template-project package installation."
+requires-python = ">=3.11.0"
+version = "0.1.0"
+authors = [
+    {name = "littletree", email = "littletree@email.com"},
+]
+license = {text = "BSD-3-Clause"}
+readme = "README.md"
+dependencies = [
+    "numpy == 1.26.4",
+    "template-project @ git+https://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@github.com/littletreesmile/template-project.git"
+]
+
